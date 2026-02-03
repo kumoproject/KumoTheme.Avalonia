@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Kumo.Avalonia/Kumo.Avalonia.csproj" />
+  <Project Path="KumoSandbox/KumoSandbox.csproj" Id="4ae39890-3523-43aa-9786-edf960469b6b" />
+</Solution>
