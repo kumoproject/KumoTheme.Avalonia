@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
   <Project Path="Kumo.Avalonia/Kumo.Avalonia.csproj" />
   <Project Path="KumoSandbox/KumoSandbox.csproj" Id="4ae39890-3523-43aa-9786-edf960469b6b" />
+  <Project Path="WinUISample/WinUISample.csproj" Id="9a78cd02-5f4c-4735-b2f5-c6a58a28050f">
+    <Platform Project="x64" />
+  </Project>
 </Solution>

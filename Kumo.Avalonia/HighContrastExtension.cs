@@ -1,8 +1,8 @@
 ﻿using Avalonia.Styling;
 
-namespace Kumo.Avalonia;
+namespace Avalonia;
 
-public class KumoTheme : Styles
+internal static class VariantTheme
 {
     public static readonly ThemeVariant HighContrast = new(nameof(HighContrast), ThemeVariant.Light);
 }
