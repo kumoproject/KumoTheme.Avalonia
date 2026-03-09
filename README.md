@@ -4,9 +4,12 @@
 
 # 映射
 
+https://github.com/microsoft/microsoft-ui-xaml/tree/winui3/release/1.8.5/src/controls/dev/CommonStyles
+
 * `dev/dll/DensityStyles/Compact.xaml` -> `Compact.axmal`
-* WIP `dev/CommonStyles/Common_themeresources_any.xaml` -> `CommonAny.axmal`
 * WIP `dev/CommonStyles/CornerRadius_themeresources.xaml` -> `CornerRadius.axmal`
+* WIP `dev/CommonStyles/Common_themeresources.xaml` -> `Common.axmal`
+* WIP `dev/CommonStyles/Common_themeresources_any.xaml` -> `CommonAny.axmal`
 * WIP `dev/CommonStyles/Button_themeresources.xaml` -> `Button.axmal`
 
 # 必须的修改

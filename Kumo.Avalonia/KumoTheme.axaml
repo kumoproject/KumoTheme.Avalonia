@@ -3,12 +3,13 @@
     <ResourceDictionary>
       <ResourceDictionary.MergedDictionaries>
         <ResourceInclude Source="avares://Kumo.Avalonia/Controls/Compact.axaml" />
-        <ResourceInclude Source="avares://Kumo.Avalonia/Controls/CommonAny.axaml" />
         <ResourceInclude Source="avares://Kumo.Avalonia/Controls/CornerRadius.axaml" />
+        <ResourceInclude Source="avares://Kumo.Avalonia/Controls/CommonAny.axaml" />
+        <ResourceInclude Source="avares://Kumo.Avalonia/Controls/Common.axaml" />
         <ResourceInclude Source="avares://Kumo.Avalonia/Controls/Button.axaml" />
       </ResourceDictionary.MergedDictionaries>
       <ControlTheme x:Key="{x:Type Window}" TargetType="Window">
-          <Setter Property="Background" Value="{DynamicResource SolidBackgroundFillColorBase}" />
+        <Setter Property="Background" Value="{DynamicResource ApplicationPageBackgroundThemeBrush}" />
       </ControlTheme>
     </ResourceDictionary>
   </Styles.Resources>
