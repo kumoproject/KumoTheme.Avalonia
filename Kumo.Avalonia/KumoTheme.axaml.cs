@@ -4,5 +4,4 @@ namespace Kumo.Avalonia;
 
 public class KumoTheme : Styles
 {
-    public static readonly ThemeVariant HighContrast = new(nameof(HighContrast), ThemeVariant.Light);
 }

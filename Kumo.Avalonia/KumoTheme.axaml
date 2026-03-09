@@ -8,7 +8,7 @@
         <ResourceInclude Source="avares://Kumo.Avalonia/Controls/Button.axaml" />
       </ResourceDictionary.MergedDictionaries>
       <ControlTheme x:Key="{x:Type Window}" TargetType="Window">
-          <Setter Property="Background" Value="{ThemeResource SolidBackgroundFillColorBase}" />
+          <Setter Property="Background" Value="{DynamicResource SolidBackgroundFillColorBase}" />
       </ControlTheme>
     </ResourceDictionary>
   </Styles.Resources>

@@ -15,5 +15,6 @@
 
     <Grid>
         <Button Content="Standard XAML button" />
+        <TextBlock x:Name="MeText" VerticalAlignment="Top"/>
     </Grid>
 </Window>

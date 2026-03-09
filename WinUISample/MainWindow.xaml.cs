@@ -27,7 +27,7 @@ namespace App1
         {
             InitializeComponent();
 
-            
+            MeText.Text = MeText.FontFamily.Source;
         }
     }
 }

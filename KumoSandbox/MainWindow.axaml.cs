@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls;
+using Avalonia.Media;
 
 namespace KumoSandbox
 {
@@ -7,6 +8,8 @@ namespace KumoSandbox
         public MainWindow()
         {
             InitializeComponent();
+
+            MeText.Text = FontManager.Current.DefaultFontFamily.Name;
         }
     }
 }
