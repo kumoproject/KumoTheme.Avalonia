@@ -6,6 +6,7 @@
     RequestedThemeVariant="Light">
 
     <Application.Styles>
+        <!--<FluentTheme />-->
         <kumo:KumoTheme />
     </Application.Styles>
 </Application>
